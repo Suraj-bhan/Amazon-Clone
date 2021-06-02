@@ -20,7 +20,7 @@ function Prodcut( {id, title, price, description, category, image} ) {
 
    const addItemToBasket = () => {
     const product ={
-        id, title, price, description, category, image, hasPrime, };
+        id, title, price, description,rating, category, image, hasPrime, };
         dispatch(addToBasket(product));
    }
 
